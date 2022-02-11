@@ -21,7 +21,7 @@ app.use("/api/users", userRoute);
 app.use("/api/articles", articleRoute);
 
 app.get('/*', function (req, res) {
-    res.sendFile(path.join(_dirname + '/build/index.html'));
+    res.sendFile(path.join(__dirname + '/build/index.html'));
 });
 
 

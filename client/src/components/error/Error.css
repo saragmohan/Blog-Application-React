@@ -1,0 +1,28 @@
+
+.errorBody{
+    background: linear-gradient(to right, rgb(56, 6, 31), rgb(236, 1, 35));
+    height: 100vh;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 250px;
+    padding-top: 100px;    
+}
+
+.errorTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* .title{
+    color: white;
+    font-size: 60px;
+} */
